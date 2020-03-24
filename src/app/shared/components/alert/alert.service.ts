@@ -34,7 +34,7 @@ export class AlertService {
         this.alert(AlertType.WARNING, message, keepAfterRouteChange);
     }
 
-    darger(message: string, keepAfterRouteChange: boolean = false) {
+    danger(message: string, keepAfterRouteChange: boolean = false) {
         this.alert(AlertType.DANGER, message, keepAfterRouteChange);
     }
 
